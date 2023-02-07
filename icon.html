@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title></title>
+  </head>
+  <body>
+    <header id="show">
+<h1 style="font-size:5vw;">Liad in the square</h1>
+    </header>
+<main>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Workers needed</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+<hr>
+
+    <form align="center">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br>
+
+      <label for="education">Education:</label>
+      <textarea id="education" name="education"></textarea><br>
+
+      <label for="experience">Work Experience:</label>
+      <textarea id="experience" name="experience"></textarea><br>
+
+      <label for="skills">Skills:</label>
+      <textarea id="skills" name="skills"></textarea><br>
+
+
+        <a href="#" class="submit">submit</a>
+    </form><br>
+  </main>
+
+    <footer>
+      Copyright © Liad in the square
+    </footer>
+
+  </body>
+
+  <style>
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 50%;
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="tel"]:focus {
+      border-color: #4CAF50;
+      outline: none;
+    }
+
+    textarea {
+      width: 50%;
+      height: 50px;
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: none; /* prevent the user from resizing the textarea */
+    }
+
+    textarea:focus {
+      border-color: #4CAF50;
+      outline: none;
+    }
+
+
+  .submit {
+  	box-shadow:inset 0px 1px 3px 0px #ffffff;
+  	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  	background-color:#ededed;
+  	border-radius:16px;
+  	border:4px solid #dcdcdc;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#777777;
+  	font-family:Impact;
+  	font-size:25px;
+  	padding:8px 31px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 18px #ffffff;
+  }
+  .submit:hover {
+  	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  	background-color:#dfdfdf;
+  }
+  .submit:active {
+  	position:relative;
+  	top:1px;
+  }
+
+  header {
+    padding: 60px;
+    text-align: center;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333; /* dark gray */
+    color: #ffffff; /* white */
+    padding: 20px 20px;
+  }
+
+  nav a {
+    color: #ffffff; /* white */
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  h1 {
+    color: grey;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+  }
+
+  body {
+font-family: "Audiowide", sans-serif;
+family: input;
+}
+
+nav {
+position: sticky;
+top: 0;
+}
+
+header {
+
+width: 100%;
+height: 270px;
+animation: anim1 ease-in-out 30s infinite;
+}
+
+@keyframes anim1 {
+
+0%  {
+ background-image: url("https://litb-cgis.rightinthebox.com/images/640x640/202205/bps/product/inc/mvqcsr1652420967568.jpg");
+ }
+
+25% {
+ background-image: url("https://www.factory54.co.il/dw/image/v2/BFLR_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7b28aaa0/images/large/602901750_P_1.png?sw=298&sh=447");
+ }
+
+50% {
+ background-image: url("https://www.factory54.co.il/dw/image/v2/BFLR_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf17a1002/images/large/604202934_P_1.png?sw=298&sh=447");
+ }
+
+ 75% {
+   background-image: url("https://litb-cgis.rightinthebox.com/images/640x853/202107/bps/product/inc/tshdwk1627540895152.jpg?fmt=webp&v=1");
+   }
+
+   100% {
+     background-image: url("https://litb-cgis.rightinthebox.com/images/640x640/202205/bps/product/inc/mvqcsr1652420967568.jpg");
+     }
+
+     footer {
+       background-color: #333333; /* dark gray */
+       color: #ffffff; /* white */
+       text-align: center;
+       padding: 10px;
+     }
+
+     hr {
+         position: relative;
+         border: 0;
+         margin: 0;
+         display: flex;
+         justify-content: center;
+     }
+
+     hr:before {
+         content: '';
+         background: linear-gradient(to right, transparent, #818078, transparent);
+         position: absolute;
+         top: 50%;
+         width: 100%;
+         height: 1px;
+     }
+
+     hr:after {
+         content: "";
+         position: relative;
+         padding: 0 20px;
+         background: #fcfcfa url('deco.svg') no-repeat center center;
+         background-size: contain;
+         width: 40px;
+         height: 40px;
+     }
+
+
+    </style>
+
+</html>
